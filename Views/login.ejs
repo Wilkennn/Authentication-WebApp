@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AVCALL</title>
+	<link rel="stylesheet" type="text/css" href="/LOGIN/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="/LOGIN/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="/LOGIN/img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form method="POST" action="/auth/login">
+				<img src="/LOGIN/img/logo.png">
+				<h2 class="title">Welcome</h2>
+				<div class='alert alert-danger' role="alert"></div>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input" name="usuario" autocomplete="off">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" name="senha" autocomplete="off">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" id="login" name="login" value="Login">
+				<a href="../SINGUP/index.php" id="forget-password">Não possui login? Cadastre-se</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="/LOGIN/js/main.js"></script>
+</body>
+</html>

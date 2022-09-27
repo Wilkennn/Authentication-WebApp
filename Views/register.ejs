@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AVCALL</title>
+    <link rel="stylesheet" type="text/css" href="/SINGUP/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <img class="wave" src="/SINGUP/img/wave.png" />
+    <div class="container">
+      <div class="login-content">
+        <form action="/auth/register" method="POST">
+          <img src="/SINGUP/img/logo.png" />
+          <h2 class="title">Sign Up</h2>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5>Name</h5>
+              <input type="text" class="input" name="name" id="name" autocomplete="off"/>
+            </div>
+          </div>
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <h5>Username</h5>
+              <input type="text" class="input" name="login" id="login" autocomplete="off"/>
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5>Telefone</h5>
+              <input type="text" class="input" name="telefone" id="telefone" autocomplete="off"/>
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5>Password</h5>
+              <input type="password" class="input" name="senha" id="senha" autocomplete="off" />
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5>Confirm Password</h5>
+              <input type="password" class="input" name="passwordConfirm" id="passwordConfirm" autocomplete="off" />
+            </div>
+          </div>
+          <input type="submit" class="btn" value="Sign Up" id="register" />
+          <a href="../LOGIN/index.php">Already Sing Up? Login</a>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="/SINGUP/js/main.js"></script>
+  </body>
+</html>
